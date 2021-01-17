@@ -19,7 +19,7 @@ import './App.css';
 function App() {
   return (
 
-    <div class="row d-flex justify-content-between h-100 w-100">
+    <div class="row d-flex justify-content-between h-100 w-100" >
       {/* leftside */}
       <div id="leftSide" class="col-1 d-none d-lg-block"><LeftSide /></div>
       {/* middelpart */}
