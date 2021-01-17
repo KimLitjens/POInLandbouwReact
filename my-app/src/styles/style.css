@@ -1,0 +1,129 @@
+html,
+body {
+  background-image: url("../img/background.jpg");
+  /* fallback */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.withBorder {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin: 20px 20px 0 0;
+}
+
+a {
+  font-size: 13px;
+}
+
+#middelPart {
+  max-width: 1000px;
+}
+
+#homeTab {
+  height: 70vh;
+}
+
+#homeTab h1 {
+  font-size: 60px;
+}
+
+#textFooter {
+  font-style: serif;
+  margin: 40px;
+}
+
+#mariaText p:nth-child(odd) {
+  text-align: left;
+}
+
+#mariaText p:nth-child(even) {
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.mailContact {
+  color: #008dff;
+}
+
+.mailContact a {
+  padding-right: 0.5em;
+}
+
+.phoneContact {
+  color: #008dff;
+}
+
+.phoneContact a {
+  padding-right: 0.5em;
+}
+
+.h70 {
+  height: 70%;
+}
+
+#vereisten {
+  position: relative;
+  top: -100px;
+}
+
+#gevolgen {
+  position: relative;
+  top: -100px;
+}
+
+#footerNav {
+  -ms-flex-negative: none;
+      flex-shrink: none;
+  padding-bottom: 1px;
+}
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+@media (max-width: 575.98px) {
+  #homeTab h1 {
+    font-size: 7vw;
+  }
+  #arEnRa {
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #homeTab h1 {
+    font-size: 7vw;
+  }
+  #arEnRa {
+    margin-left: 25px;
+  }
+  #prodOrgan {
+    display: block;
+  }
+  #vereisten {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    position: static;
+  }
+  #gevolgen {
+    position: static;
+  }
+  #workDiv {
+    margin: 20px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #arEnRa {
+    margin-left: 25px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
