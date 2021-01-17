@@ -1,4 +1,11 @@
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelopeSquare, faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons'
+
 function Contact() {
+    const envelopeSquare = <FontAwesomeIcon icon={faEnvelopeSquare} size="2x" />
+    const phoneSquare = <FontAwesomeIcon icon={faPhoneSquareAlt} size="2x" />
+
     return (
 
         <div class="row d-flex align-items-center mt-5 ml-2">
@@ -85,12 +92,12 @@ function Contact() {
             <div class="col-lg-6 mt-5">
                 <p class="d-flex justify-content-center mailContact">
                     <a href="mailto:mlitjens53@hotmail.com"
-                    ><i class="fas fa-envelope-square fa-2x"></i></a
+                    >{envelopeSquare}</a
                     >mlitjens53@hotmail.com
             </p>
                 <p class="d-flex justify-content-center phoneContact">
                     <a href="tel:+31642735852"
-                    ><i class="fas fa-phone-square-alt fa-2x"></i></a
+                    >{phoneSquare}</a
                     >+31 (0)6 42 73 58 52
             </p>
             </div>
