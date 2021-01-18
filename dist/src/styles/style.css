@@ -1,6 +1,6 @@
 html,
 body {
-  background: rgba(156, 245, 40, 0.4) url("../img/background.jpg") no-repeat fixed top;
+  background: rgba(156, 245, 40, 0.445) url("../img/background.jpg") no-repeat fixed top;
   background-blend-mode: luminosity;
   background-size: cover;
   top: 0;
