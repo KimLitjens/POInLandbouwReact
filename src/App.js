@@ -13,12 +13,12 @@ import POInNederland from "./pages/POInNederland"
 import StudieEnWerk from "./pages/StudieEnWerk"
 import LeftSide from "./components/LeftSide"
 import RightSide from "./components/RichtSide"
-// import ReactGA from 'react-ga'
+import ReactGA from 'react-ga'
 
 import './App.css';
 
-// ReactGA.initialize('G-GW1ZZ1BCD3');
-// ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.initialize('G-GW1ZZ1BCD3');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 
