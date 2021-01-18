@@ -26,8 +26,17 @@ a {
   font-size: 13px;
 }
 
+#leftSide {
+  padding-right: 0;
+}
+
+#rightSide {
+  padding: 0;
+}
+
 #middelPart {
   max-width: 1000px;
+  padding: 0;
 }
 
 #homeTab {

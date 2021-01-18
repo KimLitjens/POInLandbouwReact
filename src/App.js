@@ -12,6 +12,7 @@ import PO from "./pages/PO"
 import POInNederland from "./pages/POInNederland"
 import StudieEnWerk from "./pages/StudieEnWerk"
 import LeftSide from "./components/LeftSide"
+import RightSide from "./components/RichtSide"
 
 
 import './App.css';
@@ -54,7 +55,7 @@ function App() {
         <Footer />
       </div>
       {/* rightside */}
-      <div class="col-1 d-none d-lg-block"></div>
+      <div id="rightSide" class="col-1 d-none d-lg-block"><rightSide /></div>
     </div>
 
   );

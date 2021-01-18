@@ -42,16 +42,16 @@ function StudieEnWerk() {
                     </div>
                 </div>
                 <div class="col-12 text-danger mt-4">
-                    <h4>
+                    <h3>
                         Proefschrift 'ProducentenOrganisatie als erkend kartel' (2018)
                 <br />
                 Universiteit van Groningen.
-              </h4>
-                    <h4>Dit is een nieuw beginpunt.</h4>
-                    <h4>
+              </h3>
+                    <h3>Dit is een nieuw beginpunt.</h3>
+                    <h3>
                         Het begin om samenwerking in de landbouw te stimuleren en te
                         ondersteunen.
-              </h4>
+              </h3>
                 </div>
             </div>
         </div>
