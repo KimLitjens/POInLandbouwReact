@@ -13,18 +13,23 @@ import POInNederland from "./pages/POInNederland"
 import StudieEnWerk from "./pages/StudieEnWerk"
 import LeftSide from "./components/LeftSide"
 import RightSide from "./components/RichtSide"
-
+import ReactGA from 'react-ga'
 
 import './App.css';
 
+ReactGA.initialize('G-GW1ZZ1BCD3');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+
 function App() {
+
   return (
 
-    <div class="row d-flex justify-content-between h-100 w-100" >
+    < div class="row d-flex justify-content-between h-100 w-100" >
       {/* leftside */}
-      <div id="leftSide" class="col-1 d-none d-lg-block"><LeftSide /></div>
+      < div id="leftSide" class="col-1 d-none d-lg-block" > <LeftSide /></ >
       {/* middelpart */}
-      <div id="middelPart" class="col h-100">
+      < div id="middelPart" class="col h-100" >
         <div><Header /></div>
         {/* mainpart */}
         <div ><Switch>
@@ -53,10 +58,10 @@ function App() {
         </div>
         {/* footer */}
         <Footer />
-      </div>
+      </ >
       {/* rightside */}
-      <div id="rightSide" class="col-1 d-none d-lg-block"><rightSide /></div>
-    </div>
+      < div id="rightSide" class="col-1 d-none d-lg-block" > <RightSide /></ >
+    </div >
 
   );
 }
